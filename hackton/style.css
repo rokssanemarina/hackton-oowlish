@@ -1,0 +1,113 @@
+/* gerazão mesmo  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar com logo */
+.logo-marca{
+    padding: 2px;
+    margin: 1px;
+    display: flex;
+}
+#menu-site{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 5px;
+    justify-content:space-between ;
+}
+/* parte de imagem do meio  */
+.image{
+    margin: 0;
+    padding: 0;
+}
+/* sessão o que somos e fazemos  */
+.what-wedo{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+#titulo-sessao{
+    text-align: center;
+    font-size: 48px;
+    padding: 8px;
+    margin: 8px;
+}
+#group-img{
+    width: 640px;
+    height: 739px;
+    justify-items: right;
+}
+/* .desc-itens{
+    display: flex;
+} */
+
+.wrapeer-geral{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.title-iten{
+    margin: 8px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+.iten-describe{
+    margin: 2px;
+    padding: 1px;
+    margin-bottom: 5px;
+}
+/* revisar o posicionamento dos textos */
+/* our mission section */
+#mission-general{
+display: flex;
+}
+.describe-mission{
+align-items: center;
+}
+/* sessao sobre os serviços  */
+.service-title{
+    /* background-color: aquamarine; */
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.service-describe{
+    text-align: center;
+    font-size: 16px;
+}
+.service-one{
+    background-color: gray;
+    border-radius: 10px;
+}
+.service-two{
+    background-color: rgb(72, 71, 73);
+    border-radius: 10px;
+    margin: 10px;
+}
+.service-general{
+    margin: 1px;
+    padding:2px;
+    margin: 10px;
+}
+.itens-general{
+    display: flex;
+    
+}
+.service-describe{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
